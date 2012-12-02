@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MooTools Responsive Full Screen Background Image Switcher</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+<script type="text/javascript" src="js/mootools-core-1.4.5-full-compat.js"></script>
+<script type="text/javascript" src="js/mootools-more-1.4.0.1.js"></script>
+<script type="text/javascript" src="js/bcat-bgswitcher.js"></script>
+</head>
+<body>
+
+<div id="bg-body">
+</div><!--end of bg-body-line-->
+
+<script type="text/javascript">
+var srcBgArray = ["./images/img-slider-1.jpg","./images/img-slider-2.jpg","./images/img-slider-3.jpg","./images/img-slider-4.jpg"];
+window.addEvent('domready', function(){
+        new BgSwitcher(srcBgArray, {alt: 'Responsive full screen background image', fullscreen: true}); 
+});
+</script><!--end of bg-body script-->
+
+<div id="wrapper">
+
+<div id="info">
+<h1>Responsive full screen image switcher</h1>
+<p>This is a demo of the MooTools responsive full screen background image switcher. You can play with the window size to see how it works.</p>
+<p>See <a href="http://www.bcat.eu/blog/mootools-unobtrusive-background-image-switcher/">this blog post</a> for details.</p>
+</div><!--end of info-->
+
+</div><!--end of Wrapper-->
+
+</body>
+</html>
