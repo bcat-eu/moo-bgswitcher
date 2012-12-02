@@ -10,6 +10,7 @@ How to use
 
 To use this class just create an instance and pass it an array of image URLs, the second optional parameter contains further options.
 
+#JS
 var srcBgArray = [
   "/path/to/image1.jpg",
   "/path/to/image2.jpg",
