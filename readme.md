@@ -1,7 +1,7 @@
 MooTools Unobtrusive Background Image Switcher
 ===========
 
-MooTools Class that switches background images of a website - can be used as an image slider or a full screen background image switcher.
+This MooTools class switches background images of a website - can be used as an image slider or a full screen background image switcher.
 
 Infos and Demo http://www.bcat.eu/blog/mootools-unobtrusive-background-image-switcher/
 
