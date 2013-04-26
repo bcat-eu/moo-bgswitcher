@@ -10,6 +10,7 @@ How to use
 
 To use this class just create an instance and pass it an array of image URLs, the second optional parameter contains further options.
     
+```javascript
     var srcBgArray = [
       "/path/to/image1.jpg",
       "/path/to/image2.jpg",
@@ -22,5 +23,6 @@ To use this class just create an instance and pass it an array of image URLs, th
         {alt: 'Alt text', wrapperId: 'some-id'}
       );
     });
+```
 
 Full screen functionality uses both JavaScript and CSS so if you want the full screen option to work, download the whole package and see our bare bones style.css. The CSS part is based on Perfect Full Page Background Image / CSS-Only Technique #2 from css-tricks - http://css-tricks.com/perfect-full-page-background-image/.
